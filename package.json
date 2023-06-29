@@ -1,0 +1,46 @@
+{
+    "name": "next-effector",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "clsx": "^1.2.1",
+        "effector": "^22.8.6",
+        "effector-react": "^22.5.3",
+        "eslint": "8.43.0",
+        "eslint-config-next": "13.4.7",
+        "fp-ts": "^2.13.1",
+        "monocle-ts": "^2.3.13",
+        "next": "13.4.7",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@effector/swc-plugin": "^0.0.10",
+        "@svgr/webpack": "^8.0.1",
+        "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+        "@types/node": "^20.3.2",
+        "@types/react": "^18.2.14",
+        "@types/react-dom": "^18.2.6",
+        "@typescript-eslint/eslint-plugin": "^5.51.0",
+        "@typescript-eslint/parser": "^5.51.0",
+        "eslint": "^8.43.0",
+        "eslint-config-next": "^13.4.7",
+        "eslint-plugin-effector": "^0.10.3",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "postcss": "^8.4.21",
+        "prettier": "^2.8.4",
+        "sass": "^1.58.0",
+        "stylelint": "^15.0.0",
+        "stylelint-scss": "^5.0.1",
+        "stylelint-config-prettier-scss": "^1.0.0",
+        "stylelint-config-standard-scss": "^9.0.0",
+        "typescript": "5.1.6"
+    }
+}
